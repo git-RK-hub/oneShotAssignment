@@ -1,0 +1,10 @@
+.footer {
+  min-height: 100px;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 30% 30% 30%;
+  align-items: center;
+  background-color: aqua;
+  margin-top: 10px;
+}

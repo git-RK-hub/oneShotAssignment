@@ -1,0 +1,36 @@
+.table {
+  width: 100%;
+  min-height: 100vh;
+}
+.tableRow {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: center;
+  width: 92%;
+  margin-top: 10px;
+  border-bottom: 2px solid aqua;
+  height: 60px;
+  place-content: center;
+  background-color: white;
+  transition: all 0.2s ease-in-out;
+}
+.tableRow:hover {
+  transform: scale(1.05) skew(-20deg);
+}
+
+.tableHeader {
+  color: rgb(20, 199, 199);
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: center;
+  width: 92%;
+  margin-top: 10px;
+  border-bottom: 2px solid aqua;
+  height: 60px;
+  place-content: center;
+  background-color: white;
+}

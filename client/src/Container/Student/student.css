@@ -1,0 +1,44 @@
+.stdFolder {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+
+.stdImg {
+  width: 40%;
+  background-color: rgb(10, 223, 223);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stdDetails {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+.stdDetails p {
+  font-size: 20px;
+  line-height: 1cm;
+  font-weight: bold;
+}
+
+.stdDetails span {
+  color: teal;
+}
+
+@media screen and (max-width: 700px) {
+  .stdFolder {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .stdImg {
+    width: 60%;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+}
